@@ -1,0 +1,86 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+
+span {
+background-color: #ffcc00; /*Golden*/
+font-family: Raleway, Comic Sans MS, sans-serif;
+font-size: 40px;
+margin-top: 0px
+}
+
+.menu-button {
+min-height: 50px;
+max-height: 80px;
+padding-left: 10px;
+border-bottom: 2px solid;
+background-color: #ffcc00; /*Golden*/
+font-family: Raleway, Comic Sans MS, sans-serif;
+font-size: 40px;
+margin-top: 0px;
+}
+
+img {
+height: 50px;
+width: 50px;
+margin-right: 20px;
+margin-top: 4px;
+}
+
+.dropdown {
+float: right;
+display: inline-block;
+}
+
+.dropdown-content {
+padding-left: 2px !important;
+display: none;
+position: relative;
+background-color: #f9f9f9;
+width: 225px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-size: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+display: inline-block;
+}
+
+p {
+font-size: 40px;
+}
+
+ul {
+    text-align: justify;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffcc00;
+    border: 2px solid;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    width: 100%;
+}
+    
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Comic Sans MS, Veranda
+}
+
+li a:hover {
+    background-color: #e88a2c;
+}
