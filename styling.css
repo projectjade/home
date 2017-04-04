@@ -5,6 +5,10 @@ html, body {
     border: none;
 }
 
+b {
+    text-align: center;
+}
+
 span {
 background-color: #ffcc00; /*Golden*/
 font-family: Raleway, Comic Sans MS, sans-serif;
