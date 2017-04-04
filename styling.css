@@ -40,6 +40,12 @@ margin-top: 4px;
     max-width: 400px;
 }
 
+.fact121 {
+    min-height:100px;
+    max-height:250px;
+    min-width:100px;
+    max-width:300px;
+}
 
 .dropdown {
 float: right;
