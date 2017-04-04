@@ -33,6 +33,14 @@ margin-right: 20px;
 margin-top: 4px;
 }
 
+.jkrowling {
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+
 .dropdown {
 float: right;
 display: inline-block;
