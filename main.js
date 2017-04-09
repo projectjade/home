@@ -1,4 +1,4 @@
-var myName = "Project Jade";
+var myName = "Project J.A.D.E.";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
