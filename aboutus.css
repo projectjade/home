@@ -25,6 +25,37 @@ font-size: 40px;
 margin-top: 0px;
 }
 
+ul {
+    text-align: justify;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #ffcc00;
+    border: 2px solid;
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    width: 100%;
+}
+    
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Comic Sans MS, Veranda
+}
+
+li a:hover {
+    background-color: #e88a2c;
+}
+
 .content {
     margin-left: 10px;
 }
