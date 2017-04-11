@@ -25,34 +25,6 @@ font-family: Raleway, Comic Sans MS, sans-serif;
 font-size: 40px;
 margin-top: 0px;
 }
-/* end */
-
-.undercurrents {
-min-height: 200px;
-max-height: 500px;
-min-width: 350px;
-max-width: 550px;
-margin-right: 4px;
-margin-top: 4px;
-}
-
-.jkrowling {
-    min-height: 100px;
-    max-height: 300px;
-    min-width: 100px;
-    max-width: 400px;
-}
-
-.fact121 {
-    min-height:100px;
-    max-height:250px;
-    min-width:100px;
-    max-width:300px;
-}
-
-p {
-font-size: 40px;
-}
 
 ul {
     text-align: justify;
@@ -85,6 +57,36 @@ li a:hover {
     background-color: #e88a2c;
 }
 
+/* end template */
+
+.undercurrents {
+min-height: 200px;
+max-height: 500px;
+min-width: 350px;
+max-width: 550px;
+margin-right: 4px;
+margin-top: 4px;
+}
+
+.jkrowling {
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+.fact121 {
+    min-height:100px;
+    max-height:250px;
+    min-width:100px;
+    max-width:300px;
+}
+
+p {
+font-size: 40px;
+}
+
+/* copyright */
 .copyright {
     clear: left;
     background: #ccffdd;
@@ -101,3 +103,4 @@ li a:hover {
     height: 35px;
     padding: 3px;
 }
+/* end copyright */
