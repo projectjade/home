@@ -5,13 +5,24 @@ html, body {
     border: none;
 }
 
-.header {
-    margin:0px;
-    font-size: 30px;
-    font-family: comic sans ms, arial, sans serif;
-    text-align: center;
-    background-color: #ffebcd;
-    border-bottom: 2px dashed;
+span {
+background-color: #ffcc00; /*Golden*/
+font-family: Raleway, Comic Sans MS, sans-serif;
+font-size: 40px;
+margin-top: 0px
+}
+
+.menu-button {
+width: 100%;
+text-align: center;
+min-height: 50px;
+max-height: 100px;
+padding-left: 10px;
+border-bottom: 2px solid;
+background-color: #ffcc00; /*Golden*/
+font-family: Raleway, Comic Sans MS, sans-serif;
+font-size: 40px;
+margin-top: 0px;
 }
 
 .content {
