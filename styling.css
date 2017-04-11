@@ -5,6 +5,7 @@ html, body {
     border: none;
 }
 
+/* use for all pages */
 span {
 background-color: #ffcc00; /*Golden*/
 font-family: Raleway, Comic Sans MS, sans-serif;
@@ -24,6 +25,7 @@ font-family: Raleway, Comic Sans MS, sans-serif;
 font-size: 40px;
 margin-top: 0px;
 }
+/* end */
 
 .undercurrents {
 min-height: 200px;
@@ -89,8 +91,9 @@ li a:hover {
     text-align: center;
     font-size: 20px;
     line-height: 35px;
+    color: #000000;
     position: absolute;
-    margin-bottom: 0 !important;
+    bottom: 0;
     width: 100%;
     -webkit-box-shadow: -4px -5px 22px -2px rgba(0,0,0,0.45);
     -moz-box-shadow: -4px -5px 22px -2px rgba(0,0,0,0.45);
