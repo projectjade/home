@@ -5,6 +5,13 @@ html, body {
     border: none;
 }
 
+.content {
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #ffcc00;
+    border-radius: 20px;
+}
+
 span {
 background-color: #ffcc00; /*Golden*/
 font-family: Raleway, Comic Sans MS, sans-serif;
