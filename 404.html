@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>Error 404 | ProjectJade</title>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
 <style>
 div {
 background-image: url("https://www.techtricksworld.com/wp-content/uploads/2015/12/Error-404.png");
@@ -12,7 +17,8 @@ background-image: url("https://www.techtricksworld.com/wp-content/uploads/2015/1
 </head>
 <body>
   <h1>Your link or URL does not exist.</h1>
-  <h1>Click <a href="https://projectjade.ga">here</a> to go to the homepage.</h1>
+  <h1>Click <a href="https://projectjade.ga"><button>here</button></a> to go to the homepage.</h1>
+  <h1>Alternatively, click <button onclick="goBack()">Here</button> to go to the previous page</h1>
   <hr/>
   <div>
   </div>
