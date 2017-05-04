@@ -7,7 +7,7 @@ html, body {
 
 .content {
     margin-top: 20px;
-    padding-top: 10px;
+    padding: 15px;
     background-color: #7df289;
     border-radius: 20px;
     min-height: 400px;
