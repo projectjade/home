@@ -11,6 +11,7 @@ html, body {
     background-color: #7df289;
     border-radius: 20px;
     min-height: 400px;
+    margin-left: 5px;
 }
 
 span {
