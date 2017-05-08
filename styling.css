@@ -5,6 +5,12 @@ html, body {
     border: none;
 }
 
+@media screen and (min-width: 930px) {
+    .copyright {
+        display: none;
+    }
+}
+
 /* use for all pages */
 span {
 background-color: #ffcc00; /*Golden*/
