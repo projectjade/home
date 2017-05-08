@@ -1,0 +1,19 @@
+<!doctye html>
+<html>
+<head>
+<title>Screen size | Project Jade</title>
+<script>
+function size() {
+var w = window,
+    d = document,
+    e = d.documentElement,
+    g = d.getElementsByTagName('body')[0],
+    x = w.innerWidth || e.clientWidth || g.clientWidth,
+    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+document.write(x + ' × ' + y);
+}
+</script>
+</head>
+<body onload = size()>
+</body>
+</html>
