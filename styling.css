@@ -11,6 +11,12 @@ html, body {
     }
 }
 
+@media screen and (max-width: 835px) {
+	#button {
+    	display: none;
+    }
+}
+
 /* use for all pages */
 span {
 background-color: #ffcc00; /*Golden*/
