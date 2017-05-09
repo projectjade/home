@@ -32,7 +32,7 @@ margin-top: 0px
 width: 100%;
 text-align: left;
 min-height: 50px;
-max-height: 100px;
+max-height: 125px;
 padding-left: 10px;
 border-bottom: 2px solid;
 background-color: #ffcc00; /*Golden*/
@@ -58,7 +58,7 @@ a {
 
 .buttons {
     right: 10px;
-    top: 30px;
+    top: 27px;
     position: fixed;
     z-index: 3;
     font-size: 18px;	
