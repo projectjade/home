@@ -43,8 +43,7 @@ margin-top: 0px;
 
 a {
     text-decoration: none !important;
-	text-align: right !important;
-    justify: left;
+    text-align: right !important;
     color: black;
     padding: 7.5px;
     padding-left: 15px;
@@ -55,6 +54,14 @@ a {
     margin-left: 10px;
     border-radius: 20px;
     border: 1px solid gray;
+}
+
+.buttons {
+	right: 10px;
+    top: 21px;
+    position: fixed;
+    z-index: 3;
+    font-size: 18px;	
 }
 
 ul {
