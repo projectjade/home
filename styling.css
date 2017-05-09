@@ -13,8 +13,12 @@ html, body {
 }
 
 @media screen and (max-width: 920px) {
-display: block;
+	.buttons {
+	display: block;
+	}
 }
+
+
 
 /* use for all pages */
 span {
