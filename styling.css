@@ -38,6 +38,13 @@ font-size: 40px;
 margin-top: 0px;
 }
 
+#button {
+    font-size: 25px;
+    background-color: #e0be57;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
 ul {
     text-align: justify;
     list-style-type: none;
