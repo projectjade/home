@@ -102,10 +102,10 @@ li a:hover {
 /* end template */
 
 .undercurrents {
-min-height: 200px;
-max-height: 500px;
-min-width: 350px;
-max-width: 550px;
+min-height: 100px;
+max-height: 300px;
+min-width: 100px;
+max-width: 300px;
 margin-right: 4px;
 margin-top: 4px;
 }
@@ -118,8 +118,9 @@ margin-top: 4px;
 }
 
 .fact121 {
+    margin-top: 4px;
     min-height:100px;
-    max-height:250px;
+    max-height:300px;
     min-width:100px;
     max-width:300px;
 }
