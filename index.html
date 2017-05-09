@@ -14,7 +14,7 @@ var w = window,
     g = d.getElementsByTagName('body')[0],
     x = w.innerWidth || e.clientWidth || g.clientWidth,
     y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-alert(x + ' × ' + y);
+/*alert(x + ' × ' + y);*/
 </script>
   </head>
   <body>
@@ -41,11 +41,51 @@ alert(x + ' × ' + y);
       </div>
     </div>
     <!--End header-->
-    <img src="https://itscloudywithachanceofchaos.files.wordpress.com/2014/03/1798650_603760026370464_1928562655_n.jpg?w=670" class="undercurrents"/>
+    <!--<img src="https://itscloudywithachanceofchaos.files.wordpress.com/2014/03/1798650_603760026370464_1928562655_n.jpg?w=670" class="undercurrents"/>
     <img src="https://themighty.com/wp-content/uploads/2015/07/JK1.jpg" class="jkrowling"/>
     <img src="https://s-media-cache-ak0.pinimg.com/736x/dd/b9/62/ddb962bcaeba1cee097730b66aa94371.jpg" class="fact121"/>
     <div class="copyright">
       Copyright ©2017 Project J.A.D.E.
+    </div>-->
+    <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+      <img src="https://itscloudywithachanceofchaos.files.wordpress.com/2014/03/1798650_603760026370464_1928562655_n.jpg?w=670"/>
+      <img src="https://themighty.com/wp-content/uploads/2015/07/JK1.jpg"/>
+      <img src="https://s-media-cache-ak0.pinimg.com/736x/dd/b9/62/ddb962bcaeba1cee097730b66aa94371.jpg"/>
     </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
   </body>
 </html>
