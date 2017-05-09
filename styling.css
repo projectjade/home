@@ -38,7 +38,7 @@ font-size: 40px;
 margin-top: 0px;
 }
 
-span #button {
+span a {
     text-decoration: none !important;
     color: black;
     padding: 7.5px;
