@@ -38,8 +38,13 @@ font-size: 40px;
 margin-top: 0px;
 }
 
-span a #button{
+span a {
     text-decoration: none !important;
+}
+
+#button {
+    text-decoration: none !important;
+	text-align: right !important;
     color: black;
     padding: 7.5px;
     padding-left: 15px;
