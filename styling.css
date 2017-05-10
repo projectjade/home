@@ -1,4 +1,4 @@
-    html, body {
+html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -14,37 +14,37 @@
 
 @media screen and (max-width: 920px) {
 	.buttons {
-	display: block;
+		display: block;
 	}
 }
 
-
+body .header {
+	position: fixed;
+	background-color: #ffcc00; /*Golden*/
+}
 
 /* use for all pages */
 span {
-background-color: #ffcc00; /*Golden*/
-font-family: Raleway, Comic Sans MS, sans-serif;
-font-size: 40px;
-margin-top: 0px
+	background-color: #ffcc00; /*Golden*/
+	font-family: Raleway, Comic Sans MS, sans-serif;
+	font-size: 40px;
+	margin-top: 0px;
 }
 
 .menu-button {
-width: 100%;
-text-align: left;
-min-height: 50px;
-max-height: 125px;
-padding-left: 10px;
-border-bottom: 2px solid;
-background-color: #ffcc00; /*Golden*/
-font-family: Raleway, Comic Sans MS, sans-serif;
-font-size: 40px;
-margin-top: 0px;
+	margin-left: 30px;
+	width: 100%;
+	text-align: left;
+	min-height: 50px;
+	max-height: 125px;
+	padding-left: 10px;
+	font-family: Raleway, Comic Sans MS, sans-serif;
+	font-size: 40px;
+	margin-top: 0px;
 }
 
 a {
     text-decoration: none !important;
-    text-align: right !important;
-    color: black;
     padding: 7.5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -52,11 +52,13 @@ a {
     bottom: 10px;
     font-size: 20px;
     margin-left: 10px;
-    border-radius: 20px;
-    border: 1px solid gray;
 }
 
 .buttons {
+	text-align: right !important;
+	color: black;
+	border-radius: 20px;
+    border: 1px solid gray;
     right: 10px;
     top: 25px;
     position: fixed;
