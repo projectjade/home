@@ -5,63 +5,67 @@
       Project Jade | Home
     </title>
     <style>
-
+      
     </style>
-    <link href="styling.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Welcome to the website of Project Jade! We aim to help people with depression and raise awareness about depression">
-<script>
-var w = window,
-    d = document,
-    e = d.documentElement,
-    g = d.getElementsByTagName('body')[0],
-    x = w.innerWidth || e.clientWidth || g.clientWidth,
-    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-/*alert(x + ' × ' + y);*/
+    <link href="styling.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="Description" content="Welcome to the website of Project Jade! We aim to help people with depression and raise awareness about depression"/>
+    <script>
+      var w = window,
+      d = document,
+      e = d.documentElement,
+      g = d.getElementsByTagName('body')[0],
+      x = w.innerWidth || e.clientWidth || g.clientWidth,
+      y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+      /*alert(x + ' × ' + y);*/
   
   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
-}
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
+      }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-    document.body.style.backgroundColor = "white";
-}
-</script>
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+          document.body.style.backgroundColor = "white";
+      }
+    </script>
   </head>
   <body>
     <!--Use this for all pages-->
     <div class="header">
-    <!-- Use any element to open the sidenav -->
-<span onclick="openNav()" class="btn">☰</span>
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()" class="btn">
+        <a href="#">☰</a>
+      </span>
 
       <div class="menu-button">
           <b>Project J.A.D.E.</b>
-          <div class="buttons">
-        <a href="https://projectjade.ga">Home</a>
-        <a href="aboutus.html">About</a>
-        <a href="contact.html">Contact us</a>
-        </div>
+            <div class="buttons">
+              <a href="https://projectjade.ga">Home</a>
+              <a href="aboutus.html">About</a>
+              <a href="contact.html">Contact us</a>
+            </div>
       </div>
-<div id="mySidenav" class="sidenav">
-<a onclick="closeNav()">&times;</a>
-  <a href="https://projectjade.ga">Home</a>
-  <a href="awareness.html">Awareness</a>
-  <a href="quora.html">Quora with Doctors</a>
-  <a href="pledge.html">Sign the Pledge</a>
-  <a href="aboutus.html">About us</a>
-  <a href="contact.html">Contact us</a>
-</div>
-    <!--End header-->
-    
-<img src="https://s-media-cache-ak0.pinimg.com/736x/e4/b5/58/e4b5580bd543bd60ec7ebc8efff249d2.jpg" class="undercurrents"/>
+      
+      <div id="mySidenav" class="sidenav">
+        <a onclick="closeNav()">&times;</a>
+        <a href="https://projectjade.ga">Home</a>
+        <a href="awareness.html">Awareness</a>
+        <a href="quora.html">Quora with Doctors</a>
+        <a href="pledge.html">Sign the Pledge</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+      <!--End header-->
+    </div>
+    <img src="https://s-media-cache-ak0.pinimg.com/736x/e4/b5/58/e4b5580bd543bd60ec7ebc8efff249d2.jpg" class="undercurrents"/>
     <img src="https://themighty.com/wp-content/uploads/2015/07/JK1.jpg" class="jkrowling"/>
     <img src="https://s-media-cache-ak0.pinimg.com/736x/dd/b9/62/ddb962bcaeba1cee097730b66aa94371.jpg" class="fact121"/>
+    
     <div class="copyright">
       Copyright ©2017 Project J.A.D.E.
     </div>
