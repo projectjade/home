@@ -74,7 +74,7 @@ a {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 10; /* Stay on top */
     top: 0;
     left: 0;
     background-color: #111; /* Black*/
@@ -188,7 +188,7 @@ font-size: 40px;
         padding-right: 10px;
       }
       .container {
-        width: auto
+        width: auto;
       }
     }
     /* For smartphones */
@@ -200,13 +200,13 @@ font-size: 40px;
     /* For smaller displays like laptops */
     @media (min-width: 768px) and (max-width: 979px) {
       .container {
-        width: 724px
+        width: 724px;
       }
     }
     /* For larger displays */
     @media (min-width: 1200px) {
       .container {
-        width: 1170px
+        width: 1170px;
       }
     }
 /*end slideshow*/
