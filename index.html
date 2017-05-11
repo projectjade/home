@@ -37,12 +37,10 @@
   <body>
     <!--Use this for all pages-->
     <div class="header">
-      <!-- Use any element to open the sidenav -->
-      <span onclick="openNav()" class="btn">
-        <a href="#">☰</a>
-      </span>
-
       <div class="menu-button">
+         <span onclick="openNav()" class="btn">
+          <a href="#">☰</a>
+          </span>
           <b>Project J.A.D.E.</b>
             <div class="buttons">
               <a href="https://projectjade.ga">Home</a>
@@ -88,8 +86,8 @@
   <script>
     $(function() {
       $('#slides').slidesjs({
-        width: 940,
-        height: 528,
+        width: auto,
+        height: auto,
         navigation: {
           effect: "fade"
         },
