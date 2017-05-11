@@ -18,7 +18,9 @@ html, body {
 	}
 }
 
-
+@media screen and (max-width: 450px) {
+	<link href="mobile.css" rel="stylesheet">
+}
 
 /* use for all pages */
 span {
@@ -69,6 +71,7 @@ a {
 .hamburg {
     max-height: 25px;
     max-width: 25px;
+	margin-left: 0px;
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
