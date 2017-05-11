@@ -59,6 +59,7 @@ a {
 	padding-top: 7.5px;
 	color: black;
 	border-radius: 20px;
+	max-height: 35px;
     border: 1px solid gray;
     right: 10px;
     top: 25px;
