@@ -5,28 +5,26 @@
     <title>About Us | Project Jade</title>
   </head>
   <body>
-    <div class="header">
-      <div class="menu-button">
-          <b>Project J.A.D.E. x SAMH</b>
-      </div>
-      <div class="navigation">
-        <ul>
-          <li><a href="https://projectjade.ga">Go to Home</a></li>
-          <li><a href="http://www.samhealth.org.sg/" target="_blank">SAMH About and Events</a></li>
-          <li><a href="awareness.html">Awareness about Depression</a></li>
-          <li><a href="quora.html">Quora with the doctors</a></li>
-          <li><a href="pledge.html">Sign the Pledge</a></li>
-          <li><a href="aboutus.html">About us</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="name.html">Name animations</a></li>
-        </ul>
-      </div>
-    </div>
+    <div class="banner">
+      <!--Use this for all pages-->
+      <span onclick="openNav()" class="btn" style="padding: none !important;">
+        <a href="#">☰</a>
+      </span>
+        <div class="menu-button" style="display: inline;">
+            <b>Project J.A.D.E.</b>
+        </div><!--End menu-button-->
+        <div id="mySidenav" class="sidenav">
+          <a onclick="closeNav()">&times;</a>
+          <a href="https://projectjade.ga">Home</a>
+          <a href="awareness.html">Awareness</a>
+          <a href="quora.html">Quora&nbsp;with&nbsp;Doctors</a>
+          <a href="pledge.html">Sign&nbsp;the&nbsp;Pledge</a>
+          <a href="aboutus.html">About&nbsp;us</a>
+          <a href="contact.html">Contact&nbsp;us</a>
+        </div><!--End sidenav-->
+    </div><!--End banner-->
     <div class="content">
       This is the statement that tells the readers about us
-    </div>
-    <div class="copyright">
-      Copyright ©2017 Project J.A.D.E.
-    </div>
+    </div><!--End content-->
   </body>
 </html>
