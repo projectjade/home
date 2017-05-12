@@ -23,6 +23,10 @@ html, body {
 }
 
 /* use for all pages */
+.banner {
+	background-color: #ffcc00;	
+}
+
 span {
 	background-color: #ffcc00; /*Golden*/
 	font-family: Raleway, Comic Sans MS, sans-serif;
@@ -69,12 +73,6 @@ a {
 }
 
 /* The side navigation menu */
-
-.hamburg {
-    max-height: 25px;
-    max-width: 25px;
-	margin-left: 0px;
-}
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -216,3 +214,5 @@ font-size: 40px;
       }
     }
 /*end slideshow*/
+
+    
