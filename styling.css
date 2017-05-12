@@ -97,8 +97,13 @@ a {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus, .sidenav a:active{
+.sidenav a:hover, .offcanvas a:focus {
     background-color: #f1f1f1;
+	color: #111;
+}
+
+.sidenav a.active {
+	background-color: #f1f1f1;
 	color: #111;
 }
 
