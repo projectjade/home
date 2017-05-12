@@ -1,3 +1,19 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+
+.content {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #7df289;
+    border-radius: 20px;
+    min-height: 400px;
+    margin-left: 5px;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
