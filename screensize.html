@@ -1,4 +1,4 @@
-<!doctye html>
+<!doctype html>
 <html>
 <head>
 <title>Screen size | Project Jade</title>
@@ -10,10 +10,11 @@ var w = window,
     g = d.getElementsByTagName('body')[0],
     x = w.innerWidth || e.clientWidth || g.clientWidth,
     y = w.innerHeight|| e.clientHeight|| g.clientHeight;
-document.write(x + ' × ' + y);
+alert(x + ' × ' + y);
 }
 </script>
 </head>
-<body onload = size()>
+<body>
+    <input type="button" onclick="size()"/>
 </body>
 </html>
