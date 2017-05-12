@@ -14,6 +14,57 @@ html, body {
     margin-left: 5px;
 }
 
+/* use for all pages */
+.banner {
+	background-color: #ffcc00;	
+}
+
+span {
+	background-color: #ffcc00; /*Golden*/
+	font-family: Raleway, Comic Sans MS, sans-serif;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+.menu-button {
+	margin-left: 10px;
+	width: 100%;
+	text-align: left;
+	min-height: 50px;
+	max-height: 125px;
+	padding-left: 10px;
+	background-color: #ffcc00; /*Golden*/
+	font-family: Raleway, Comic Sans MS, sans-serif;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+a {
+    text-decoration: none !important;
+    padding: 7.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.buttons {
+	text-align: right !important;
+	padding-top: 7.5px;
+	color: black;
+	border-radius: 20px;
+	max-height: 35px;
+    border: 1px solid gray;
+    right: 10px;
+    top: 25px;
+    position: fixed;
+    z-index: 3;
+    font-size: 18px;	
+}
+
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
