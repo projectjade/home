@@ -11,6 +11,12 @@ html, body {
   }
 }
 
+@media screen and (max-width: 427px) {
+	.jade {
+		padding-left: 68.7px;
+	}
+}
+
 /* use for all pages */
 .banner {
 	background-color: #ffcc00;	
