@@ -1,7 +1,7 @@
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
       function openNav() {
-        document.getElementById("mySidenav").style.width = "280px";
-        document.getElementById("main").style.marginLeft = "280px";
+        document.getElementById("mySidenav").style.width = "290px";
+        document.getElementById("main").style.marginLeft = "290px";
         document.body.style.backgroundColor = "rgba(0,0,0,0.3)";
       }
 
