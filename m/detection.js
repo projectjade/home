@@ -10,6 +10,6 @@
       {
         if(sniffer[mobile])
         {
-          window.location = "mobile.html";
+          window.location = "index.html";
         } 
       }
