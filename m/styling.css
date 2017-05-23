@@ -20,6 +20,7 @@ html, body {
 /* use for all pages */
 .banner {
 	background-color: #ffcc00;	
+	width: 100%;
 }
 
 span {
